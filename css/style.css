@@ -1,0 +1,150 @@
+/* DEFAULT STYLES BLOCK */
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+a {
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  outline: none;
+}
+
+table {
+  min-width: 100%;
+  border: 0;
+  border-spacing:0;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 80px;
+}
+
+li {
+  list-style-image: url(/img/headlineMarker.png);
+}
+
+td {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: none;
+  vertical-align: top;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color:#000000;
+}
+
+span {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+img {
+  background-repeat: no-repeat;
+}
+
+/* DEFAULT END */
+
+/* COLORS BLOCK */
+:root {
+  --BGbaner-blue:#003da1;
+  --text-white: #ffffff;
+  --BGtitle-lightBlue: #e8f6fa;
+  --title-blue:#003da1;
+  --marker-darkblue:#122277;
+  --text-black: #000000;
+}
+/* COLORS END */
+
+/* HEADER TBLOCK */
+.header {
+  padding-bottom:50px;
+}
+
+.header__img {
+  background-image: url(/img/headerBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerBlock {
+  height: 450px;
+  width: 35%;
+  background-color:#003da1;
+  color: #ffffff;
+  padding: 40px 30px 30px 72px;
+}
+
+.header__title {
+  font-family: "Arial", sans-serif;
+  font-size: 44px;
+  font-weight: normal;
+  padding-bottom: 34px;
+}
+
+.header__divider {
+  height: 2px;
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 52px;
+}
+
+.header__info {
+  font-family: "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 80px;
+}
+
+.header__image {
+  width:auto;
+  height: 100%;
+}
+/* HEADER END */
+
+/* CONTENT  TBLOCK*/
+.article__title-wrapper {
+  width: 100%;
+  border-top: 40px solid #ffffff;
+  background-color:#e8f6fa;
+}
+
+.article__title {
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  color: #003da1;
+  padding: 40px 0px 60px 22px;
+}
+.article__info {
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  padding:40px 0px 60px 70px;
+}
+
+.article__info-text {
+  padding-top:80px;
+}
+/* CONTENT END */
+
